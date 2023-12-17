@@ -1,0 +1,10 @@
+// Importing Datasheet
+
+data_set= pd.read_csv('BigBasket.csv',header=None)
+transactions=[]
+
+# for row and coloumn ranging the values of we want i and j
+# i ---- 0 to 7219
+# j ----- 0 to 20
+for i in range(0, 7219):
+    transactions.append([str(data_set.values[i,j]) for j in range (0, 20)])
