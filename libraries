@@ -1,0 +1,11 @@
+// Install the Apriori libraries for devoloping the project
+// by using following command
+
+!pip install apyori 
+
+// importing the lib which we need in this project
+
+import numpy as np
+import matplotlib.pyplot as plt
+import pandas as pd
+
