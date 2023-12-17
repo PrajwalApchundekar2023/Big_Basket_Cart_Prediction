@@ -1,0 +1,6 @@
+// By using following code we train our datasheet by Apriori Algorithm
+
+from apyori import apriori
+
+# we create intalligance varieable for getting value of the raw prediction
+basket_intelligance= apriori(transactions=transactions, min_support=0.002, min_confidance=0.2, min_lift=3, min_length=2, max_length=2 )
